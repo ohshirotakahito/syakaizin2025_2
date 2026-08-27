@@ -1,0 +1,6 @@
+﻿wavelength_nm,absorbance,above_average
+400,0.12,False
+450,0.35,False
+500,0.81,True
+550,0.46,True
+600,0.18,True
