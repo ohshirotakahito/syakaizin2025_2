@@ -42,10 +42,8 @@ components = [
 
 def gaussian_peak(time_values, center, height, width):
     """指定した中心、高さ、幅を持つ釣鐘型のピークを返す。"""
-    # TODO: ここに実装してください
-    # ヒント： exponent = -((time_values - center) ** 2) / (2 * width ** 2)
-    #         return height * np.exp(exponent)
-    pass
+    exponent = -((time_values - center) ** 2) / (2 * width ** 2)
+    return height * np.exp(exponent)
 
 
 # 各成分のピークを作り、現在のsignalへ順番に加えます。
